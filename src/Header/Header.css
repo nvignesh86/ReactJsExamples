@@ -1,0 +1,17 @@
+.header{
+    width:100%;
+    height:60px;
+    background-color:rgb(56 54 54);
+    color:#fff;
+    display: flex;
+}
+.title{
+    width: 80%;
+    margin-top:15px;
+   padding:0px 10px;
+}
+.user-con{    
+    width: 20%;
+   margin-top:15px;
+   padding:0px 10px;
+}
