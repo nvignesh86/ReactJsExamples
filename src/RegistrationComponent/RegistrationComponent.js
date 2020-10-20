@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 
-export default function LoginComponent(props){
+export default function RegistrationComponent(props){
 
     const [userName,setUserName] = useState("");
     const [password,setPassword] = useState("");
@@ -36,7 +36,7 @@ export default function LoginComponent(props){
     }
 
     const registerClick=()=>{
-        console.log("test");
+        console.log("Register Button Clicked");
     }
 
     return (
