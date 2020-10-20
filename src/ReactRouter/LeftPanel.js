@@ -11,7 +11,8 @@ export default function LeftPanel(){
         {link:"/context",name:"React Context"},
         {link:"/hoc",name:"HOC Component"},
         {link:"/error",name:"Error Boundary"},
-        {link:"/forwardRef",name:"Forward Ref"}
+        {link:"/forwardRef",name:"Forward Ref"},
+        {link:"/materialui",name:"Material UI"}
     ]
     return (
         <ul>

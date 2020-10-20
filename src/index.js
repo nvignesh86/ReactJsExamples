@@ -7,13 +7,13 @@ import 'react-bootstrap-typeahead/css/Typeahead.css';
 //import CustomTypeAhead from './TypeAhead/CustomTypeAhead';
 //import APITypeAhead from './TypeAhead/APITypeAhead';
 //import SearchBox from './SearchBox/SearchBox';
-import ReactRouter from './ReactRouter/ReactRouter';
+import RegistrationComponent from './RegistrationComponent/RegistrationComponent';
 //import ReactLazy from "./ReactLazy/ReactLazy";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReactRouter />
+    <RegistrationComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );

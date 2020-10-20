@@ -9,6 +9,7 @@ import ReactProvider from './../Context/ReactProvider';
 import HOCComponent from './../HOC/HOCComponent';
 import ErrorBoundaryBase from '../ErrorBoundary/ErrorBoundaryBase';
 import ForwardRef from './../ForwardRef/ForwardRef';
+import MaterialUIBase from './../MaterialUI/MaterialUIBase';
 
 export default function BaseComponent(){
     return (
@@ -22,6 +23,7 @@ export default function BaseComponent(){
             <Route path="/hoc" component={HOCComponent}></Route>
             <Route path="/error" component={ErrorBoundaryBase}></Route>
             <Route path="/forwardRef" component={ForwardRef}></Route>
+            <Route path="/materialui" component={MaterialUIBase}></Route>            
             <Route path="*"><div>No Route set </div></Route>
         </Switch>
     );
