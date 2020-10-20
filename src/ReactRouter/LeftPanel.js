@@ -12,7 +12,8 @@ export default function LeftPanel(){
         {link:"/hoc",name:"HOC Component"},
         {link:"/error",name:"Error Boundary"},
         {link:"/forwardRef",name:"Forward Ref"},
-        {link:"/materialui",name:"Material UI"}
+        {link:"/materialui",name:"Material UI"},
+        {link:"/registration",name:"Registration Component"}
     ]
     return (
         <ul>

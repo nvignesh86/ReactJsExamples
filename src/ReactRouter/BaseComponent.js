@@ -10,6 +10,7 @@ import HOCComponent from './../HOC/HOCComponent';
 import ErrorBoundaryBase from '../ErrorBoundary/ErrorBoundaryBase';
 import ForwardRef from './../ForwardRef/ForwardRef';
 import MaterialUIBase from './../MaterialUI/MaterialUIBase';
+import RegistrationComponent from './../RegistrationComponent/RegistrationComponent';
 
 export default function BaseComponent(){
     return (
@@ -23,7 +24,8 @@ export default function BaseComponent(){
             <Route path="/hoc" component={HOCComponent}></Route>
             <Route path="/error" component={ErrorBoundaryBase}></Route>
             <Route path="/forwardRef" component={ForwardRef}></Route>
-            <Route path="/materialui" component={MaterialUIBase}></Route>            
+            <Route path="/materialui" component={MaterialUIBase}></Route>
+            <Route path="/registration" component={RegistrationComponent}></Route>           
             <Route path="*"><div>No Route set </div></Route>
         </Switch>
     );
