@@ -13,7 +13,9 @@ export default function LeftPanel(){
         {link:"/error",name:"Error Boundary"},
         {link:"/forwardRef",name:"Forward Ref"},
         {link:"/materialui",name:"Material UI"},
-        {link:"/registration",name:"Registration Component"}
+        {link:"/registration",name:"Registration Component"},
+        {link:"/currencyList",name:"Currency List"},
+        {link:"/asyncMethod",name:"Async Method"}
     ]
     return (
         <ul>

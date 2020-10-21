@@ -11,6 +11,8 @@ import ErrorBoundaryBase from '../ErrorBoundary/ErrorBoundaryBase';
 import ForwardRef from './../ForwardRef/ForwardRef';
 import MaterialUIBase from './../MaterialUI/MaterialUIBase';
 import RegistrationComponent from './../RegistrationComponent/RegistrationComponent';
+import CurrencyList from './../CurrencyExchange/CurrencyList';
+import AsyncMethod from './../AsyncMethod/AsyncMethod';
 
 export default function BaseComponent(){
     return (
@@ -26,6 +28,8 @@ export default function BaseComponent(){
             <Route path="/forwardRef" component={ForwardRef}></Route>
             <Route path="/materialui" component={MaterialUIBase}></Route>
             <Route path="/registration" component={RegistrationComponent}></Route>           
+            <Route path="/currencyList" component={CurrencyList}></Route>
+            <Route path="/asyncMethod" component={AsyncMethod}></Route>
             <Route path="*"><div>No Route set </div></Route>
         </Switch>
     );

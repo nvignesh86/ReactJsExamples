@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 export default function RegistrationComponent(props){
 
@@ -24,8 +24,9 @@ export default function RegistrationComponent(props){
         }
     },[userName,password,confirmPassword]);
 
-    const handleChange = (name,event)=>{
-        console.log(event,name);
+
+    const handleChange = useCallback((name,event)=>{
+        //console.log(event,name);
         if(name === "userName"){
             setUserName(event.target.value);
         }else if(name === "password"){
@@ -33,7 +34,7 @@ export default function RegistrationComponent(props){
         }else if(name === "confirmPassword"){
             setConfirmPassword(event.target.value);
         }        
-    }
+    },[]);
 
     const registerClick=()=>{
         console.log("Register Button Clicked");
