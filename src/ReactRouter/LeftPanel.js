@@ -15,7 +15,8 @@ export default function LeftPanel(){
         {link:"/materialui",name:"Material UI"},
         {link:"/registration",name:"Registration Component"},
         {link:"/currencyList",name:"Currency List"},
-        {link:"/asyncMethod",name:"Async Method"}
+        {link:"/asyncMethod",name:"Async Method"},
+        {link:"/customHook",name:"Custom Hook"}
     ]
     return (
         <ul>
