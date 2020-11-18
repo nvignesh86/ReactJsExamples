@@ -16,6 +16,7 @@ export default function LeftPanel(){
         {link:"/registration",name:"Registration Component"},
         {link:"/currencyList",name:"Currency List"},
         {link:"/asyncMethod",name:"Async Method"},
+        {link:"/hook",name:"Hooks"},
         {link:"/customHook",name:"Custom Hook"}
     ]
     return (

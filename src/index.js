@@ -11,10 +11,16 @@ import ReactRouter from './ReactRouter/ReactRouter';
 //import ReactLazy from "./ReactLazy/ReactLazy";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+/*ReactDOM.render(
   <React.StrictMode>
     <ReactRouter />
   </React.StrictMode>,
+  document.getElementById('root')
+);*/
+
+ReactDOM.render(
+    <ReactRouter />
+  ,
   document.getElementById('root')
 );
 

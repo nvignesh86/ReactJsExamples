@@ -13,6 +13,7 @@ import MaterialUIBase from './../MaterialUI/MaterialUIBase';
 import RegistrationComponent from './../RegistrationComponent/RegistrationComponent';
 import CurrencyList from './../CurrencyExchange/CurrencyList';
 import AsyncMethod from './../AsyncMethod/AsyncMethod';
+import Hook from './../Hook/Hook';
 import CustomHook from './../CustomHook/CustomHook';
 
 export default function BaseComponent(){
@@ -31,6 +32,7 @@ export default function BaseComponent(){
             <Route path="/registration" component={RegistrationComponent}></Route>           
             <Route path="/currencyList" component={CurrencyList}></Route>
             <Route path="/asyncMethod" component={AsyncMethod}></Route>
+            <Route path="/hook" component={Hook}></Route>
             <Route path="/customHook" component={CustomHook}></Route>
             <Route path="*"><div>No Route set </div></Route>
         </Switch>
