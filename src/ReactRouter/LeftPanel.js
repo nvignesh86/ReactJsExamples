@@ -14,10 +14,12 @@ export default function LeftPanel(){
         {link:"/forwardRef",name:"Forward Ref"},
         {link:"/materialui",name:"Material UI"},
         {link:"/registration",name:"Registration Component"},
+        {link:"/registrationUseReducer",name:"Registration Component Use Reducer"},
         {link:"/currencyList",name:"Currency List"},
         {link:"/asyncMethod",name:"Async Method"},
         {link:"/hook",name:"Hooks"},
-        {link:"/customHook",name:"Custom Hook"}
+        {link:"/customHook",name:"Custom Hook"},
+        {link:"/lineCharts",name:"Line Charts"}
     ]
     return (
         <ul>
